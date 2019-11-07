@@ -1,0 +1,15 @@
+﻿<Window x:Class="CarRentalSystem.LauncherWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CarRentalSystem"
+        mc:Ignorable="d"
+        Title="Car Rental System" Height="200" Width="360" ResizeMode="NoResize">
+    <Grid>
+        <Button x:Name="LaunchVehiclesBtn" Click="LaunchVehiclesBtn_Click" Content="Vehicles" Height="40" FontSize="14" HorizontalAlignment="Left" Margin="30,30,0,0" VerticalAlignment="Top" Width="125"/>
+        <Button x:Name="LaunchJourniesBtn" Click="LaunchJourniesBtn_Click" Content="Journies" Height="40" FontSize="14" HorizontalAlignment="Left" Margin="200,30,0,0" VerticalAlignment="Top" Width="125"/>
+        <Button x:Name="LaunchFuelPurchaseBtn" Click="LaunchFuelPurchaseBtn_Click" Content="Fuel Purchases" Height="40" FontSize="14" HorizontalAlignment="Left" Margin="30,100,0,0" VerticalAlignment="Top" Width="125"/>
+        <Button x:Name="LaunchServicesBtn" Click="LaunchServicesBtn_Click" Content="Services" Height="40" FontSize="14" HorizontalAlignment="Left" Margin="200,100,0,0" VerticalAlignment="Top" Width="125"/>
+    </Grid>
+</Window>
